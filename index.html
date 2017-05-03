@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>代码编辑器</title>
+    <script src="js/codemirror.min.js"></script>
+    <script src="js/mode/javascript.js"></script>
+    <script src="js/mode/markdown.js"></script>
+    <link rel="stylesheet" href="css/codemirror.min.css">
+    <link rel="stylesheet" href="css/simplescrollbars.css">
+    <script src="js/addons/simplescrollbars.js"></script>
+
+
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/showdown.min.js"></script>
+
+    <script type="text/javascript" src="js/run_prettify.js"></script>
+    <link rel="stylesheet" href="css/prettify.css">
+    <script type="text/javascript" src="js/showdown-prettify-for-wechat.js"></script>
+    <link rel="stylesheet" href="css/tomorrow-night-eighties.css">
+
+    <script type="text/javascript" src="js/clipboard.min.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <textarea id="myTextArea"></textarea>
+    <div id="toolbar">
+        <div class="btn" id="copy" data-clipboard-target="#preview">复制</div>
+    </div>
+    <div id="preview">
+        
+    </div>
+
+    <script type="text/javascript" src="js/main.js"></script>
+    <script type="text/javascript">
+        var clipboard = new Clipboard('#copy');
+    </script>
+</body>
+</html>
