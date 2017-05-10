@@ -35,10 +35,8 @@
 #preview p {
     margin: 8px 0;
     line-height: 1.5;
-    letter-spacing: 1px;
-/*            line-height: 1.5;
+}
 
-*/        }
 #preview h1 {
     font-size: 30px;
     padding: 10px 0px;
@@ -48,8 +46,8 @@
     font-size: 26px;
     padding: 10px 0px;
     color: #280F34;
-
 }
+
 #preview h3 {
     font-size: 22px;
     padding: 15px 0px;
@@ -69,13 +67,15 @@
 }
 #preview blockquote {
     margin-left: 0;
-    border-left: 4px solid #6EB6FF;
+    border-left: 5px solid #6EB6FF;
     padding-left: 10px;
     /*color: #6EB6FF;*/
 }
+
 #preview .code-in-text {
     padding: 2px 5px;
     border-radius: 4px;
+    font-size: 12px !important;
 }
 
 pre {
@@ -83,22 +83,20 @@ pre {
 }
 
 pre > code {
-    line-height: 1.2;
-    font-family: Consolas, Courier, monospace, monospace !important;
+    /*line-height: 1.2;*/
+    font-family: monospace, monospace !important;
 
 }
 tt, code, kbd, samp {
-    font-family: Consolas, Courier, monospace, monospace !important;
-/*            font-size: 15px !important;
-*/            line-height: 1.4em !important;
+    font-family: monospace, monospace !important;
+    /*line-height: 1.4em !important;*/
 }
 
 .btn {
     display: inline-block;
     width: 80px;
     height: 50px;
-/*            background-color: #cd00cd;
-*/            line-height: 50px;
+    line-height: 50px;
     text-align: center;
 }
 .btn:hover {
@@ -106,6 +104,7 @@ tt, code, kbd, samp {
     cursor: pointer;
 }
 table {
+    margin: 20px 0;
     width: 100%;
     border-collapse: collapse;
 }
