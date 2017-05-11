@@ -19,9 +19,9 @@
       filter: function (source) {
         return source.replace(/(<pre[^>]*>)?[\n\s]?<code([^>]*)>/gi, function (match, pre, codeClass) {
           if (pre) {
-            return '<pre class="prettyprint linenums" style="font-size: 12px;line-height: 14px"><code' + codeClass + ' style="font-size: 12px;line-height: 14px">';
+            return '<pre class="prettyprint linenums" style="font-size: 10px;line-height: 10px"><code' + codeClass + ' style="font-size: 10px;line-height: 10px">';
           } else {
-            return ' <code class="prettyprint code-in-text"  style="font-size: 14px;line-height: 18px">';
+            return ' <code class="prettyprint code-in-text"  style="font-size: 12px;line-height: 14px">';
           }
         });
       }

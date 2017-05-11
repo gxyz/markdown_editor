@@ -26,14 +26,12 @@
     left: 50%;
     overflow-y: scroll;
     padding: 10px 20px;
-    font-size: 15px;
+    font-size: 14px;
     font-family: Consolas, Courier, monospace, monospace !important;
-/*            line-height: 1.5;
-    letter-spacing: 1px;*/
     color: #415865;
 }
 #preview p {
-    margin: 8px 0;
+    margin: 8px 0 20px 0;
     line-height: 1.5;
 }
 
@@ -72,11 +70,17 @@
     /*color: #6EB6FF;*/
 }
 
-#preview .code-in-text {
+#preview .code-in-text  {
     padding: 2px 5px;
     border-radius: 4px;
     font-size: 12px !important;
 }
+
+#preview .code-in-text span {
+    background-color: black;
+    color: white;
+}
+
 
 pre {
     overflow: auto;
@@ -84,11 +88,10 @@ pre {
 
 pre > code {
     /*line-height: 1.2;*/
-    font-family: monospace, monospace !important;
-
+    font-family: monospace, Courier !important;
 }
 tt, code, kbd, samp {
-    font-family: monospace, monospace !important;
+    font-family: monospace, Courier !important;
     /*line-height: 1.4em !important;*/
 }
 
