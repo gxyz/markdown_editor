@@ -4,8 +4,8 @@
 
 - [codemirror](http://codemirror.net/): js实现的浏览器中的文本编辑器
 - [Showdown.js](https://github.com/showdownjs/showdown): 渲染markdown
-- [Code Prettify](Code Prettify): 代码高亮
-- [Clipboard.js](): 用来复制内容
+- [Code Prettify](https://github.com/google/code-prettify): 代码高亮
+- [Clipboard.js](https://github.com/zenorocha/clipboard.js): 用来复制内容
 
 在线使用地址: [markdown_editor](http://www.gaodb.me/markdown_editor/)
 

@@ -74,14 +74,6 @@ function fixScrollBar(editor, preview) {
         preview.scrollTop(top);
     })
 
-    // editor.on('scroll', function() {
-    //     var top = editor.getScrollInfo().top;
-    //     preview.scrollTop(top);
-    //     console.log('ss')
-    //     return false;
-    // })
-   
-
     preview.on('scroll', function() {
         var top = preview.scrollTop();
         editor.scrollTo(undefined, top);
